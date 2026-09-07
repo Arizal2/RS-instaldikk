@@ -1,0 +1,6 @@
+{
+  "name": "e-Instaldik RSKH",
+  "description": "Sistem Informasi Terpadu Instalasi Pendidikan Rumah Sakit TK II Kartika Husada - Digitalisasi Pendidikan dan Praktik Klinik Terintegrasi",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "collections": [
+    {
+      "name": "students",
+      "description": "Mahasiswa stase / praktik klinik",
+      "fields": {
+        "id": { "type": "string" },
+        "nim": { "type": "string" },
+        "name": { "type": "string" },
+        "institutionId": { "type": "string" },
+        "studyProgramId": { "type": "string" },
+        "semester": { "type": "number" },
+        "status": { "type": "string" }
+      }
+    },
+    {
+      "name": "attendance",
+      "description": "Catatan presensi dan absensi klinik",
+      "fields": {
+        "id": { "type": "string" },
+        "studentId": { "type": "string" },
+        "date": { "type": "string" },
+        "status": { "type": "string" },
+        "checkInTime": { "type": "string" },
+        "checkOutTime": { "type": "string" }
+      }
+    },
+    {
+      "name": "schedules",
+      "description": "Jadwal dinas stase ruangan",
+      "fields": {
+        "id": { "type": "string" },
+        "studentId": { "type": "string" },
+        "roomId": { "type": "string" },
+        "shift": { "type": "string" },
+        "date": { "type": "string" }
+      }
+    },
+    {
+      "name": "rooms",
+      "description": "Data ruangan / unit instalasi diklat",
+      "fields": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "capacity": { "type": "number" }
+      }
+    }
+  ]
+}
